@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #generate a plot grouping by birth_year and a column given
 #Logscale on Y
 def plot_gpYR(df,col,xlab,ylab,title,kind='line'):
@@ -27,3 +28,17 @@ def sampler (df,samples):
 #return a sampled dataframe based on a given number of samples
 def sampled_df (df,samples):    
     return df.sample(samples)
+=======
+#Put helperfxns here, avoid double naming things
+
+#To check values of column, enter data_frame as normal, col as 
+def val_check(data_frame, column_name = str):
+    df = pd.DataFrame(data_frame)
+    col = column_name
+    print( "Value counts of %s \n" %(col), df[col].value_counts())
+    print("Value counts of %s by year \n" %(col), df.groupby(['birth_year'])[col].value_counts())
+
+
+
+ 
+>>>>>>> upstream/master
