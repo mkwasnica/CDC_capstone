@@ -1,4 +1,41 @@
-CDC_capstone
+CDC_capstone - Team Pandas
+
+Welcome to the CDC - Natality dataset capstone project.
+Our goal is to examine the various maternal and infant helath factors surrounding pregnancy and delivery that result in infants being admitted to intensive care, and share these insights with healthcare policy professionals (hospital executives, government and community health policy makers)
+through an interactive dashboard.
+
+This README file will walk through steps to acquire the external data, process and prepare data for examination and visualization in a Python notebook. 
+
+The Interactive Tableau dashboard can be found here:(insert link)
+
+The Tableau dashboard takes the prepared data and independently recreates the most interesting visualizations found in the Python notebooks. 
+
+
+
+
+Step 1: Clone  a copy of this Git repo if you already haven't.
+
+
+Step 2:
+
+ Follow the links below and unzip the external data files. Resulting files should be in Fixed Width Format (FWF):
+
+CDC births data 2018: 
+ftp://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/DVS/natality/Nat2018us.zip
+CDC births data 2017:
+ftp://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/DVS/natality/Nat2017us.zip
+CDC births data 2016: 
+ftp://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/DVS/natality/Nat2016us.zip
+CDC births data 2015:
+ftp://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/DVS/natality/Nat2015us.zip
+CDC births data 2014:
+ftp://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/DVS/natality/Nat2014us.zip
+
+Name each file NatXXXX.txt (XXXX being the year) and put them in the data/external ( Note: this is not same as  the src/data directory)
+
+
+Step 3: 
+	Execute each cell in the CH Parser notebook found in the notebooks directory. Output should be csv files in the data/raw folder.
 ==============================
 
 NYCDSA capstone project examining CDC data for natality
