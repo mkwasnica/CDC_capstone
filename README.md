@@ -6,7 +6,7 @@ through an interactive dashboard.
 
 This README file will walk through steps to acquire the external data, process and prepare data for examination and visualization in a Python notebook. 
 
-The Interactive Tableau dashboard can be found here:(insert link)
+The Interactive Tableau dashboard --> https://public.tableau.com/profile/mohamad.sayed#!/vizhome/NICU_Admittance_15868167993400/NICUAdmittanceVisualization
 
 The Tableau dashboard takes the prepared data and independently recreates the most interesting visualizations found in the Python notebooks. 
 
